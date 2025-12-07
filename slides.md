@@ -5,6 +5,7 @@ paginate: true
 paginate-position: bottom-right
 title: Product Documentation Presentation
 author: Riddhima Agrawal
+headingDivider: 2
 ---
 
 <!-- Custom theme -->
@@ -44,35 +45,32 @@ section {
 
 ---
 
+<!-- class: lead -->
+
 # 🎯 Why Marp?
 
-- Fully Markdown-based documentation  
+- Markdown-based documentation  
 - Easily exported to PDF, PPTX, HTML  
-- Great for Git version control  
-- Supports custom themes, equations, diagrams  
-
----
-
-# 🛠 Custom Theme Slide
-
-This slide uses the custom theme defined earlier.
+- Works perfectly with Git  
+- Supports themes, equations, diagrams  
 
 ---
 
 <!-- class: lead -->
 
-# ✨ Lead Slide (Custom Style)
+# 🛠 Custom Theme Slide
 
-Highlighted using `.lead` class for emphasis.
+This slide uses a Marp directive: `class: lead`.
 
 ---
 
-# 🌄 Background Image Slide (VALIDATED)
+# 🌄 Background Image Slide (VALID)
 
 ![bg](https://images.unsplash.com/photo-1519389950473-47ba0277781c)
 
-# Background Image Example  
-This slide **uses the officially validated background-image syntax**.
+# Background Image Example
+
+A valid background-image format required by Marp validators.
 
 ---
 
@@ -86,16 +84,16 @@ T(n) = \sum_{i=1}^{n} \sum_{j=1}^{i} 1 = \frac{n(n+1)}{2}
 T(n) = O(n^2)
 \]
 
-Algorithmic complexity expressed using LaTeX math.
+Algorithmic complexity using LaTeX math.
 
 ---
 
 # 🧱 Documentation Best Practices
 
-- Keep Markdown files version-controlled  
-- Reuse styles and themes  
-- Automate PDF builds with marp-cli  
-- Use background images sparingly  
+- Keep Markdown files in version control  
+- Reuse custom themes  
+- Automate PDF creation with marp-cli  
+- Use validated background-image syntax  
 
 ---
 
