@@ -7,11 +7,7 @@ title: Product Documentation Presentation
 author: Riddhima Agrawal
 ---
 
-<!--
-This is the custom theme definition.
-You can place it in the same file OR in a separate .css file.
--->
-
+<!-- Custom theme definition -->
 <style>
 section {
   font-family: "Inter", sans-serif;
@@ -22,14 +18,13 @@ h1 {
 }
 
 p {
-  font-size: 1.1em;
+  font-size: 1.15em;
 }
 
 footer {
-  color: #999;
+  color: #666;
 }
 
-/* Custom theme colors */
 :root {
   --bg-color: #ffffff;
   --text-color: #1a202c;
@@ -44,29 +39,72 @@ section {
 # 📘 Product Documentation  
 ### Using Marp for Maintainable Tech Docs
 
-**Technical Writer**  
-Riddhima Agrawal  
-📧 *24f2004330@ds.study.iitm.ac.in*  
+**Technical Writer:** Riddhima Agrawal  
+📧 *24f2004330@ds.study.iitm.ac.in*
 
 ---
 
 # 🎯 Why Marp?
 
-- Write documentation in **Markdown**
-- Convert easily to:
-  - PDF
-  - PPTX
-  - HTML
-- Perfect for **version control (Git/GitHub)**  
-- Allows themes, diagrams, math, scripting, and automation  
+- Fully Markdown-based documentation  
+- Easily exported to PDF / PPTX / HTML  
+- Excellent for Git & CI/CD  
+- Supports themes, equations, diagrams, and automation  
 
 ---
 
 # 🛠 Custom Theme in Use
 
-This slide renders using the custom theme defined in the `<style>` block.
+This slide is styled using the **custom theme** defined earlier.
 
-You can override styles using inline CSS or Marp directives:
+You can override styles using inline CSS or classes.
 
-```markdown
+---
+
 <!-- class: lead -->
+
+# ✨ Lead Slide (Custom Style)
+
+This slide uses the `.lead` class to appear more dominant.
+
+---
+
+<!--
+backgroundImage: "https://images.unsplash.com/photo-1519389950473-47ba0277781c"
+backgroundSize: cover
+-->
+
+# 🌄 Background Image Slide
+
+This slide contains a valid full-background image.
+
+---
+
+# 📐 Mathematical Example
+
+Marp supports LaTeX-style math.
+
+### Algorithmic Complexity
+
+\[
+T(n) = \sum_{i=1}^{n} \sum_{j=1}^{i} 1 = \frac{n(n+1)}{2}
+\]
+
+Which simplifies to:
+
+\[
+T(n) = O(n^2)
+\]
+
+---
+
+# 🧱 Maintainability Best Practices
+
+- Keep Markdown files in Git version control  
+- Reuse themes across multiple decks  
+- Automate PDF builds using Marp CLI in CI/CD  
+
+---
+
+# 📦 Export Commands
+
