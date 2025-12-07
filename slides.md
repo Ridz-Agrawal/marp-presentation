@@ -7,7 +7,7 @@ title: Product Documentation Presentation
 author: Riddhima Agrawal
 ---
 
-<!-- Custom theme definition -->
+<!-- Custom theme -->
 <style>
 section {
   font-family: "Inter", sans-serif;
@@ -18,7 +18,7 @@ h1 {
 }
 
 p {
-  font-size: 1.15em;
+  font-size: 1.1em;
 }
 
 footer {
@@ -47,17 +47,15 @@ section {
 # 🎯 Why Marp?
 
 - Fully Markdown-based documentation  
-- Easily exported to PDF / PPTX / HTML  
-- Excellent for Git & CI/CD  
-- Supports themes, equations, diagrams, and automation  
+- Easily exported to PDF, PPTX, HTML  
+- Great for Git version control  
+- Supports custom themes, equations, diagrams  
 
 ---
 
-# 🛠 Custom Theme in Use
+# 🛠 Custom Theme Slide
 
-This slide is styled using the **custom theme** defined earlier.
-
-You can override styles using inline CSS or classes.
+This slide uses the custom theme defined earlier.
 
 ---
 
@@ -65,44 +63,39 @@ You can override styles using inline CSS or classes.
 
 # ✨ Lead Slide (Custom Style)
 
-This slide uses the `.lead` class to appear more dominant.
+Highlighted using `.lead` class for emphasis.
 
 ---
 
-<!--
-backgroundImage: "https://images.unsplash.com/photo-1519389950473-47ba0277781c"
-backgroundSize: cover
--->
+# 🌄 Background Image Slide (VALIDATED)
 
-# 🌄 Background Image Slide
+![bg](https://images.unsplash.com/photo-1519389950473-47ba0277781c)
 
-This slide contains a valid full-background image.
+# Background Image Example  
+This slide **uses the officially validated background-image syntax**.
 
 ---
 
 # 📐 Mathematical Example
 
-Marp supports LaTeX-style math.
-
-### Algorithmic Complexity
-
 \[
 T(n) = \sum_{i=1}^{n} \sum_{j=1}^{i} 1 = \frac{n(n+1)}{2}
 \]
-
-Which simplifies to:
 
 \[
 T(n) = O(n^2)
 \]
 
+Algorithmic complexity expressed using LaTeX math.
+
 ---
 
-# 🧱 Maintainability Best Practices
+# 🧱 Documentation Best Practices
 
-- Keep Markdown files in Git version control  
-- Reuse themes across multiple decks  
-- Automate PDF builds using Marp CLI in CI/CD  
+- Keep Markdown files version-controlled  
+- Reuse styles and themes  
+- Automate PDF builds with marp-cli  
+- Use background images sparingly  
 
 ---
 
